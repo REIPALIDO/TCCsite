@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+:root{
+    --corPrimaria-1: #EBB548;
+    --corPrimaria-2: #EC5C14;
+    --corPrimaria-3: #235789;
+    --corPrimaria-4: #565254;
+    --corPrimaria-5: #FFFBFE;
+    --fonte-primaria: 'Belleza', 'calibri';
+}
+body{
+    background-color: #F6F6F6; /*fonte: belleza*/
+    font-family: var(--fonte-primaria);
+}
+nav{
+    background-color:#fff ;
+    max-width: 100%;
+    padding: 5px 40px 5px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 5px 8px 11px -6px rgba(181,181,181,0.59);
+}
+
+nav ul {
+    width: 100%;
+    text-align: right;
+    margin-bottom: 0px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    color: var(--corPrimaria-4) ;
+    text-decoration: none;
+
+}
+.BarraNav img{
+    width: 40px;
+}
+.BarraNav .logoJundtask{
+    width: 140px;
+    padding-left: 8px;
+}
+.BarraNav {
+    color: var(--corPrimaria-2);
+}
+.perfil ion-icon{
+    font-size: 2em;
+    border: solid 3px var(--corPrimaria-2);
+    border-radius: 50%;
+    padding: 3px;
+    cursor: pointer;
+    color: #0F3D60;
+} 
+.TrabalheAqui{
+    border-color: var(--corPrimaria-1);
+}
+.BusqueServicos{
+    border-color: #0F3D60;
+}
+
+.container{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.pesquisarTrabalhos{
+    margin-top: 5%;
+    padding: 6px 21px;
+    gap:6px;
+    border-radius: 27px;
+    background-color: var(--corPrimaria-2);
+    box-shadow: 5px 8px 11px -6px rgba(0,0,0,0.67);
+    
+}
+
+.pesquisarTrabalhos input{
+    background-color: transparent;
+    border: none;
+    font-size: 1em;
+    width: 300px;
+    color: var(--corPrimaria-5);
+
+}
+.pesquisarTrabalhos input:focus-visible {
+    outline: none;
+}
+.pesquisarTrabalhos ion-icon{
+    color: var(--corPrimaria-5);
+    font-size: 1.3em;
+    cursor: pointer;
+}
+.pesquisarTrabalhos input::placeholder{
+    color: var(--corPrimaria-5);
+    font-family: "Inter", sans-serif;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.InicialHomePage{
+    height: 100vh;
+    background-color: #0E1947;
+    color: #fff;
+    padding: 112px 51px;
+}
+.InicialHomePage h1{
+    font-family: "Oxygen Mono", monospace;
+    font-size: 2rem;
+    line-height: 1.3em;
+    z-index: 1000;
+    position: relative;
+}
+
+.InicialHomePage img{
+    display: block;
+    width: 511px;
+    margin: auto;
+}
+
+.InicialHomePage h2{
+    font: 100 1rem "M PLUS 1p", sans-serif ;
+
+    width: 457px;
+    margin: 69px 0px 36px 0px;
+}
+.imgPai {
+    position: relative;
+}
+.imgFilho1 img {
+    position: absolute;
+    width: 200px;
+    top: -8%;
+    left: -18%;
+}
+.imgFilho2 img {
+    position: absolute;
+    width: 486px;
+    top: 8%;
+    left: 13%;
+}
+.BlocosDeEscolha{
+    margin-top: 50px;
+    margin-bottom: 70px;
+    
+}
+.BlocoPadrao{
+    min-width: 319px;
+    height: 452px;
+    margin: 10% ;
+    background-color: #fff;
+    border: solid 14px;
+    border-radius: 15% 0%;
+    box-shadow: 5px 8px 11px -3px rgba(0,0,0,0.67);
+}
+.TrabalheAqui{
+    border-color: var(--corPrimaria-2);
+    color: var(--corPrimaria-2);
+}
+.BusqueServicos{
+    border-color: #0F3D60;
+    color: #0F3D60;
+}
+.BlocoPadrao img{
+    width: 226px;
+    display: block;
+    margin: 15% 15% ;
+}
+
+.BlocoPadrao p{
+    text-align: center;
+    text-transform: uppercase;
+    font: normal 1.5rem "Oxygen Mono", monospace;
+    transition: 1s;
+}
+.BlocoPadrao:hover{
+    transform: scale(1.01);
+}
+
+
+.TxtBlocosDeEscolha p{
+    width: 400px;
+    text-align: justify;
+    margin-top: 25%;
+    font: 1.4rem "M PLUS 1p", sans-serif ;
+    color: #242760;
+}
+
+#comoFunciona{
+    height: 90vh;
+    background-color: #0E1947;
+    color: #fff;
+}
+#comoFunciona h2{
+    text-align: center;
+    margin: 80px;
+    font: 2rem "Oxygen Mono", monospace;
+}
+#comoFunciona img{
+    display: block;
+    margin: auto;
+    width: 900px;
+}
+#comoFunciona p{
+    text-align: center;
+    font: 1rem "M PLUS 1p", sans-serif ;
+    
+}
