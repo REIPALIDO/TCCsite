@@ -93,10 +93,14 @@ nav ul li a{
     font-size: 1em;
     width: 300px;
     color: var(--corPrimaria-5);
+    cursor: pointer;
 
 }
 .pesquisarTrabalhos input:focus-visible {
     outline: none;
+}
+.pesquisarTrabalhos:hover{
+    background-color: #d34803;
 }
 .pesquisarTrabalhos ion-icon{
     color: var(--corPrimaria-5);
