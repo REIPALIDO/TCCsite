@@ -218,4 +218,20 @@ nav ul li a{
     font: 1rem "M PLUS 1p", sans-serif ;
     
 }
+.secaoJundiai{
+    margin: 8% auto 0px auto ;
+}
+.secaoJundiai img{
+    display: block;
+    margin: auto;
+    width: 500px;
+}
 
+.secaoJundiai p{
+    display: block;
+    width: 500px;
+    text-align: justify;
+    margin-top: 10%;
+    font: 1.45rem "M PLUS 1p", sans-serif ;
+    color: #242760;
+}
