@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 *{
     margin: 0;
@@ -47,6 +48,7 @@ nav ul li a{
     text-decoration: none;
 
 }
+
 .BarraNav img{
     width: 40px;
 }
@@ -238,4 +240,21 @@ nav ul li a{
     margin-top: 10%;
     font: 1.45rem "M PLUS 1p", sans-serif ;
     color: #242760;
+}
+.rodape{
+    margin-top: 12%;
+}
+.rodape img{
+    width: 70px;
+}
+
+.rodape .logoJundtask{
+    width: 150px;
+}
+
+.logoEtxt p{
+    width: 320px;
+    font: normal 300 .8rem "Roboto", sans-serif;
+    text-align: justify;
+    margin-left: 10%;
 }
