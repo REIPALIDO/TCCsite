@@ -252,9 +252,29 @@ nav ul li a{
     width: 150px;
 }
 
-.logoEtxt p{
+.logoJundtask p{
     width: 320px;
     font: normal 300 .8rem "Roboto", sans-serif;
     text-align: justify;
     margin-left: 10%;
+}
+.sigaNos ul{
+    text-align: end;
+}
+
+.sigaNos ul li{
+    display: inline;
+    list-style: none;
+    margin: 2px 8px;
+    background: #D9D9D9;
+    padding: 2px;
+    border-radius: 50%;
+    font-size: 1.2rem;
+}
+
+.sigaNos p{
+    text-align: end;
+    margin-right: 4%;
+    font: normal bolder 1rem "Roboto", sans-serif;
+    color: #242760;
 }
