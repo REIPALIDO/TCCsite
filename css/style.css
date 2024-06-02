@@ -261,7 +261,6 @@ nav ul li a{
 .sigaNos ul{
     text-align: end;
 }
-
 .sigaNos ul li{
     display: inline;
     list-style: none;
@@ -271,10 +270,29 @@ nav ul li a{
     border-radius: 50%;
     font-size: 1.2rem;
 }
-
 .sigaNos p{
     text-align: end;
     margin-right: 4%;
     font: normal bolder 1rem "Roboto", sans-serif;
     color: #242760;
+}
+.direitosAutorais{
+    display: inline-block;
+    font: normal 400 1rem "Roboto", sans-serif;
+}
+.direitosAutorais ul{
+    text-align: end;
+}
+.direitosAutorais ul li{
+    display: inline;
+    list-style: none;
+    font-size: .7rem;
+    margin-right: 5px;
+    color: #242760;
+}
+.direitosAutorais p{
+    display: inline-block;
+    text-align: center;
+    background-color: #D9D9D9;
+    margin-left: 43%;
 }
