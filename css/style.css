@@ -48,6 +48,16 @@ nav ul li a{
     text-decoration: none;
 
 }
+nav a:after {
+    display:block;
+    content: '';
+    width: inherit;
+    border-bottom: solid 1px #0F3D60;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+  }
+  
+  nav a:hover:after { transform: scaleX(1); }
 
 .BarraNav img{
     width: 40px;
