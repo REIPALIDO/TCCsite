@@ -48,16 +48,18 @@ nav ul li a{
     text-decoration: none;
 
 }
-nav a:after {
+.menu a:after {
     display:block;
     content: '';
     width: inherit;
     border-bottom: solid 1px #0F3D60;  
     transform: scaleX(0);  
     transition: transform 250ms ease-in-out;
-  }
+}
   
-  nav a:hover:after { transform: scaleX(1); }
+.menu a:hover:after { 
+    transform: scaleX(1); 
+}
 
 .BarraNav img{
     width: 40px;
@@ -234,16 +236,16 @@ nav a:after {
     font: 1rem "M PLUS 1p", sans-serif ;
     
 }
-.secaoJundiai{
+#secaoJundiai{
     margin: 8% auto 0px auto ;
 }
-.secaoJundiai img{
+#secaoJundiai img{
     display: block;
     margin: auto;
     width: 500px;
 }
 
-.secaoJundiai p{
+#secaoJundiai p{
     display: block;
     width: 500px;
     text-align: justify;
