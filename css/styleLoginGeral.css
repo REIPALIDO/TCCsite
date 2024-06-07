@@ -36,3 +36,7 @@ body{
     color: #EC5C14;
     font: 400 1.1rem "M PLUS 1p", sans-serif ;
 }
+.LoginGeral{
+    display: flex;
+    justify-content: center;
+}
