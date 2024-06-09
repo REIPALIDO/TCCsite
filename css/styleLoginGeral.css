@@ -40,3 +40,46 @@ body{
     display: flex;
     justify-content: center;
 }
+
+/* .tituloLogin{
+    text-align: center;
+} */
+.tituloLogin img{
+    width: 150px;
+    display: block;
+    margin: auto;
+    padding-top: 24px;
+}
+.tituloLogin h1{
+    color: #FFF;
+    font: 400 1.7rem "M PLUS 1p", sans-serif ;
+    text-align: center;
+    margin: 6px;
+}
+
+.InputsLogin input{
+    width: 410px;
+    margin: 10px 0px;
+    padding: 13px;
+    border-radius: 16px;
+    border: #050739;
+    color: #FFF;
+    background-color: #050739;
+    outline: none;
+}
+.InputsLogin input::placeholder{
+    color: #FFF;
+}
+
+.SenhaGeral{
+    display: inline-block;
+    position: relative;
+}
+.SenhaGeral ion-icon{
+    position: absolute;
+    top: 25%;
+    right: 3%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #FFF;
+}

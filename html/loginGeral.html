@@ -16,7 +16,7 @@
         </nav>
     </header>
     <main class="LoginGeral"> 
-        <div class="row me-0">
+        <div class="row me-0 ">
             <div class="col ">
                 <div class="tituloLogin">
                     <img src="../img/logo@2x.png" alt="Logo JundTask">
@@ -25,11 +25,20 @@
         
                 <div class="InputsLogin"><input type="text" name="EmailGeral" id="" placeholder="Email"></div>
 
-                <div class="InputsLogin"><input type="password" name="SenhaGeral" id="" placeholder="Senha"></div>
+                <div class="InputsLogin SenhaGeral">
+                    <input type="password" name="SenhaGeral" id="" placeholder="Senha">
+                    <ion-icon name="eye-off-outline"></ion-icon>
+                </div>
                
-                <div class="InputsLogin"><input type="text" name="" id="" placeholder="lorem"></div>
+                <div class="InputsCheck">
+                    <label for="opcoes">Trabalhador</label>
+                    <input type="radio" name="opcoes" id="Trabalhador"  checked>
+                </div>
               
-                <div class="InputsLogin"><input type="text" name="" id="" placeholder="lorem"></div>
+                <div class="InputsCheck">
+                    <label for="opcoes">Cliente</label>
+                    <input type="radio" name="opcoes" id="Cliente" >
+                </div>
         
                 <div class="BotaoLogin"><input type="submit" value="Login"></div>
                 
@@ -40,5 +49,9 @@
     <footer>
 
     </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="../bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
