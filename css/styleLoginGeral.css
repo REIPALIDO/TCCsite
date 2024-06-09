@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 *{
     margin: 0;
@@ -66,6 +67,7 @@ body{
     color: #FFF;
     background-color: #050739;
     outline: none;
+    font-family: "Poppins", sans-serif;
 }
 .InputsLogin input::placeholder{
     color: #FFF;
@@ -82,4 +84,29 @@ body{
     font-size: 1.5rem;
     cursor: pointer;
     color: #FFF;
+}
+.radio-field{
+    opacity: 0;
+    display: none;
+} 
+.radio-label{
+    display: inline-block;
+    width: 410px;
+    padding: 10px 10px;
+    background: #050739;
+    font: 1em "Poppins", sans-serif;
+    color: #fff;
+    transition: 0.2s ease;
+}
+.radio-label:hover{
+    background: #ff5b0aad;
+    color: #fff;
+}   
+.radio-field:focus + .radio-label,
+.radio-field:checked + .radio-label{
+    background: #EC5C14;
+    color: #fff;
+}
+#Trabalhador{
+    border-radius: 10px 10px 0px 0px ;
 }
