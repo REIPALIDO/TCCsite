@@ -151,3 +151,12 @@ body{
 .BotaoLogin input:hover{
     background-color: transparent;
 }
+footer{
+    background-color: #FFF;
+    padding: 10px;
+    font: .7rem "Poppins", sans-serif;
+    color: #666666;
+}
+footer p{
+    padding: 0px 10px 0px 10px;
+}
