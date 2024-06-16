@@ -99,7 +99,7 @@ body{
     transition: 0.2s ease;
 }
 .radio-label:hover{
-    background: #ff5b0aad;
+    /* background: #ff5b0aad; */
     color: #fff;
 }   
 .radio-field:focus + .radio-label,
@@ -109,4 +109,43 @@ body{
 }
 #Trabalhador{
     border-radius: 10px 10px 0px 0px ;
+}
+#Cliente{
+    border-radius: 0px 0px 10px 10px ;
+}
+.BotaoLogin input{
+    display: block;
+    width: 310px;
+    padding:10px 20px;
+    margin: 20px auto 10px auto;
+    background: #EC5C14;
+    border: 2px solid #EC5C14;
+    border-radius: 18px;
+    font: 1em "Poppins", sans-serif;
+    color: #fff;
+    transition: .2s;
+}
+ 
+.BotaoCriarConta input{
+    display: block;
+    width: 400px;
+    padding:10px 20px;
+    margin: 20px auto 10px auto;
+    background: transparent;
+    border: 2px solid #EC5C14;
+    border-radius: 18px;
+    font: 1em "Poppins", sans-serif;
+    color: #fff;
+    transition: .2s;
+}
+ 
+.efeito input:hover{
+    transform: scale(1.01);
+}
+ 
+.BotaoCriarConta input:hover{
+    background-color: #EC5C14;
+}
+.BotaoLogin input:hover{
+    background-color: transparent;
 }
