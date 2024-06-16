@@ -149,3 +149,11 @@ body{
 .BotaoLogin input:hover{
     background-color: transparent;
 }
+.Conteudo{
+    position: relative;
+}
+.imgFundoLogin{
+    position: absolute;
+    z-index: -10;
+    /* left: ; */
+}
