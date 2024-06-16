@@ -37,14 +37,16 @@ body{
     color: #EC5C14;
     font: 400 1.1rem "M PLUS 1p", sans-serif ;
 }
+
 .LoginGeral{
     display: flex;
     justify-content: center;
+    background-image: url(../img/TelaLoginGeral.png);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
 }
 
-/* .tituloLogin{
-    text-align: center;
-} */
 .tituloLogin img{
     width: 150px;
     display: block;
@@ -148,12 +150,4 @@ body{
 }
 .BotaoLogin input:hover{
     background-color: transparent;
-}
-.Conteudo{
-    position: relative;
-}
-.imgFundoLogin{
-    position: absolute;
-    z-index: -10;
-    /* left: ; */
 }
