@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@100;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+:root{
+    --corPrimaria-1: #EBB548;
+    --corPrimaria-2: #EC5C14;
+    --corPrimaria-3: #235789;
+    --corPrimaria-4: #565254;
+    --corPrimaria-5: #FFFBFE;
+    --fonte-primaria: 'Belleza', 'calibri';
+}
+body{
+    background-color: #04074B;
+}
+
+.BarraNav{
+    background-color: #FFF;
+    padding:15px 35px 15px 35px;
+    display: flex;
+    justify-content: space-between ;
+}
+.BarraNav img{
+    width: 190px;
+}
+
+.BarraNav a{
+    text-decoration: none ;
+    color: #EC5C14;
+    font: 400 1.1rem "M PLUS 1p", sans-serif ;
+}
+
+.LoginGeral{
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/TelaLoginGeral.png);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.tituloLogin img{
+    width: 150px;
+    display: block;
+    margin: auto;
+    padding-top: 24px;
+}
+.tituloLogin h1{
+    color: #FFF;
+    font: 400 1.7rem "M PLUS 1p", sans-serif ;
+    text-align: center;
+    margin: 6px;
+}
+
+.InputsLogin input{
+    width: 410px;
+    margin: 10px 0px;
+    padding: 13px;
+    border-radius: 16px;
+    border: #050739;
+    color: #FFF;
+    background-color: #050739;
+    outline: none;
+    font-family: "Poppins", sans-serif;
+}
+.InputsLogin input::placeholder{
+    color: #FFF;
+}
+
+.SenhaGeral{
+    display: inline-block;
+    position: relative;
+}
+.SenhaGeral ion-icon{
+    position: absolute;
+    top: 25%;
+    right: 3%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #FFF;
+}
+.SenhaGeral1{
+    position: relative;
+}
+.SenhaGeral1 ion-icon{
+    position: absolute;
+    top: 25%;
+    right: 3%;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #FFF;
+}
+
+.BotaoLogin input{
+    display: block;
+    width: 310px;
+    padding:10px 20px;
+    margin: 20px auto 10px auto;
+    background: #EC5C14;
+    border: 2px solid #EC5C14;
+    border-radius: 18px;
+    font: 1em "Poppins", sans-serif;
+    color: #fff;
+    transition: .2s;
+}
+ 
+.BotaoCriarConta input{
+    display: block;
+    width: 400px;
+    padding:10px 20px;
+    margin: 20px auto 10px auto;
+    background: transparent;
+    border: 2px solid #EC5C14;
+    border-radius: 18px;
+    font: 1em "Poppins", sans-serif;
+    color: #fff;
+    transition: .2s;
+}
+ 
+.efeito input:hover{
+    transform: scale(1.01);
+}
+ 
+.BotaoCriarConta input:hover{
+    background-color: #EC5C14;
+}
+.BotaoLogin input:hover{
+    background-color: transparent;
+}
+footer{
+    background-color: #FFF;
+    padding: 10px;
+    font: .7rem "Poppins", sans-serif;
+    color: #666666;
+}
+footer p{
+    padding: 0px 10px 0px 10px;
+}
