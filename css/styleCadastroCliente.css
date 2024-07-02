@@ -124,7 +124,20 @@ body{
     color: #fff;
     transition: .2s;
 }
- 
+#cidade1 input{
+    margin-bottom: 0px;
+    border-radius: 18px 18px 0px 0px;
+}
+#cidade2 input{
+    border-radius: 0;
+}
+#cidade3 input{
+    border-radius: 0px 0px 18px 18px;
+}
+.inputCidade input{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 .efeito input:hover{
     transform: scale(1.01);
 }
