@@ -41,27 +41,26 @@ main{
 
 nav.menuLateral{
     width: 50px;
-    height: 100%;
+    height: 412px;
     background-color: #04074B;
-    padding: 40px 0 40px 1%;
+    padding: 30px 0 40px 1%;
     box-shadow: 3px 0 0 #ED5C15;
     border-radius: 0 20px 20px 0;
 
     position: fixed;
-    /* top: 0; */
+    top: 15%;
     left: 0;
     overflow: hidden; 
-    transition: .2s;
+    transition: .3s;
 }
-nav.menuLateral:hover{
+nav.menuLateral.expandir{
     width: 300px;
-
 }
-.expandir{
+.IconExpandir{
     width: 100%;
     padding-left: 7px;
 }
-.expandir > ion-icon{
+.IconExpandir > ion-icon{
     color: #ED5C15;
     font-size: 1.8rem;
     cursor: pointer;
@@ -82,18 +81,26 @@ ul li.itemMenu a{
     color: #ED5C15;
     text-decoration: none;
     font-size: 1.2rem;
-    padding: 20px 1%;
+    padding: 10px 1%;
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     line-height: 30px;
     transition: .4s;
-
+}
+ul li.ativo a{
+    background-color: #ED5C15;
+    color: #FFF;
 }
 
 ul li.itemMenu a .txtLink{
-    margin-left: 40px;
+    margin-left: 70px;
+    transition: .6s;
+    opacity: 0;
 }
-
+nav.menuLateral.expandir .txtLink{
+    margin-left: 40px;
+    opacity: 1;
+}
 ul li.itemMenu a .icon > ion-icon{
     font-size: 30px;
     padding-left: 5px;
