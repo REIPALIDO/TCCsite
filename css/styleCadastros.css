@@ -43,8 +43,6 @@ body{
     justify-content: center;
     background-image: url(../img/TelaLoginGeral.png);
     background-size: cover;
-    width: 100%;
-    height: 105vh;
 }
 
 .tituloLogin img{
@@ -146,7 +144,7 @@ body{
     background-color: #EC5C14;
 }
 .BotaoLogin input:hover{
-    background-color: transparent;
+    background-color: #04074B;
 }
 footer{
     background-color: #FFF;
