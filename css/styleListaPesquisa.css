@@ -35,6 +35,70 @@
     color: #EC5C14;
     font: 400 1.1rem "M PLUS 1p", sans-serif ;
 }
+main{
+    height: 100vh;
+}
+
+nav.menuLateral{
+    width: 50px;
+    height: 100%;
+    background-color: #04074B;
+    padding: 40px 0 40px 1%;
+    box-shadow: 3px 0 0 #ED5C15;
+    border-radius: 0 20px 20px 0;
+
+    position: fixed;
+    /* top: 0; */
+    left: 0;
+    overflow: hidden; 
+    transition: .2s;
+}
+nav.menuLateral:hover{
+    width: 300px;
+
+}
+.expandir{
+    width: 100%;
+    padding-left: 7px;
+}
+.expandir > ion-icon{
+    color: #ED5C15;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+ul{
+    height: 100%;
+    list-style-type: none;
+    padding-left: 3%;
+}
+
+ul li.itemMenu a:hover{
+    background: #ED5C15;
+    color: #FFF;
+}
+
+ul li.itemMenu a{
+    color: #ED5C15;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 20px 1%;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 30px;
+    transition: .4s;
+
+}
+
+ul li.itemMenu a .txtLink{
+    margin-left: 40px;
+}
+
+ul li.itemMenu a .icon > ion-icon{
+    font-size: 30px;
+    padding-left: 5px;
+}
+
 
 footer{
     background-color: #FFF;
