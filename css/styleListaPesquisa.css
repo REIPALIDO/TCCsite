@@ -35,9 +35,19 @@
     color: #EC5C14;
     font: 400 1.1rem "M PLUS 1p", sans-serif ;
 }
-main{
+
+.perfil ion-icon{
+    font-size: 2em;
+    border: solid 3px var(--corPrimaria-2);
+    border-radius: 50%;
+    padding: 3px;
+    cursor: pointer;
+    color: #0F3D60;
+} 
+
+/* main{
     height: 100vh;
-}
+} */
 
 nav.menuLateral{
     width: 50px;
@@ -90,6 +100,7 @@ ul li.itemMenu a{
 ul li.ativo a{
     background-color: #ED5C15;
     color: #FFF;
+    border-radius: 9px 0px 0px 9px;
 }
 
 ul li.itemMenu a .txtLink{
