@@ -297,7 +297,8 @@ nav > ul > li > a{
 #comoFunciona img{
     display: block;
     margin: auto;
-    width: 800px;
+    max-width: 950px;
+    
 }
 #comoFunciona p{
     text-align: center;
